@@ -1,0 +1,22 @@
+.bg-custom {
+  background: url('fondo.png')no-repeat; /* Reemplaza "#FF0000" con tu color personalizado en formato hexadecimal, RGB o nombre de color */
+  }
+  .navbar,
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.disabled,
+.navbar .navbar-nav .nav-link.dropdown-toggle {
+color: white; /* Cambia "white" al color deseado */
+}
+  /* Estilo personalizado para el carrusel */
+  .carousel-item img {
+    height: 400px; /* Establece la altura deseada para las imágenes */
+    object-fit:contain; /* Ajusta el tamaño de la imagen sin deformarla */
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #4691b2; /* Cambia el color de fondo de las flechas */
+    /* Otros estilos opcionales */
+  }
+  
